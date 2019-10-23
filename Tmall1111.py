@@ -12,7 +12,7 @@ import time
 # 2.逛店铺 0/20
 # 3-6. 其它活动 0/1
 def startTask():
-    for i in range(21, 25):
+    for i in range(1, 20):
         print('第 {} 次'.format(i))
         time.sleep(5)
 

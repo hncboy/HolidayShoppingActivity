@@ -15,7 +15,7 @@ import time
 # 5.邀请好友助力 0/30
 # 6.看京东推荐官直播/视频 0/4
 def startTask():
-    for i in range(26, 62):
+    for i in range(1, 62):
         print('第 {} 次'.format(i))
         time.sleep(2)
 
